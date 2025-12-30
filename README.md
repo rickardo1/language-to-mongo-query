@@ -46,4 +46,14 @@ Swagger UI: http://127.0.0.1:8000/docs
 
 ReDoc: http://127.0.0.1:8000/redoc
 
-<img width="1418" height="821" alt="image" src="https://github.com/user-attachments/assets/4d5d2417-587f-471c-86e8-abeb3ddb7024" />
+POST /chat/translate-query HTTP/1.1
+Host: localhost:8000
+Content-Type: application/json
+Content-Length: 188
+
+{
+  "prompt": "Users who are Brazilian nationals and whose occupation is Software Engineer or Systems Analyst, and who are between 18 and 40 years old.",
+  "provider": "gemini"
+}       
+
+
