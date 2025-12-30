@@ -52,7 +52,7 @@ Content-Type: application/json
 Content-Length: 188
 
 {
-  "prompt": "Users who are Brazilian nationals and whose occupation is Software Engineer or Systems Analyst, and who are between 18 and 40 years old.",
+  "prompt": "Users who are Brazilians and whose occupation are Software Engineer or Systems Analyst, and who are between 18 and 40 years old.",
   "provider": "gemini"
 }       
 
