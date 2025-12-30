@@ -1,0 +1,6 @@
+fastapi[all]
+python-dotenv
+pydantic-settings
+openai
+google-generativeai
+anthropic
